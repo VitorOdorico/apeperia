@@ -6,33 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="./app/assets/css/cabecalho.css">
-    <link rel="stylesheet" href="./app/assets/css/chamada.css">
-    <link rel="stylesheet" href="./app/assets/css/planos.css">
-    <link rel="stylesheet" href="./app/assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/chamada.css">
+    <link rel="stylesheet" href="./assets/css/planos.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <script src="./app/assets/js/script.js" defer></script>
 
 </head>
 <body>
-    <header>
-        <img src="./assets/img/logo-apeperia.svg" alt="">
-        <nav>
+    <header class="cabecalho">
+        <img src="./assets/img/logo-apeperia.svg" class="cabecalho_logo" alt="">
+        <nav class="cabecalho__navegacao">
             <ul>
-                <li><a href="#">sobre</a></li>
-                <li><a href="#">planos</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">destaques</a></li>
-                <li><a href="#">institucional</a></li>
-                <li><a href="#">contato</a></li>
+                <li class="cabecalho__link"><a href="#">sobre</a></li>
+                <li class="cabecalho__link"><a href="#">planos</a></li>
+                <li class="cabecalho__link"><a href="#">blog</a></li>
+                <li class="cabecalho__link"><a href="#">destaques</a></li>
+                <li class="cabecalho__link"><a href="#">institucional</a></li>
+                <li class="cabecalho__link"><a href="#">contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Aplicativos na medida</h1>
-            <p>Apeparia tem um jeito inovador de comparar e montar aplicativos para pequenos e médias empresas</p>
-            <a href="#">conheça os planos</a>
+        <section class="chamada">
+            <h1 class="chamada__titulo">Aplicativos na medida</h1>
+            <p class="chamada__texto">Apeparia tem um jeito inovador de comparar e montar aplicativos para pequenos e médias empresas</p>
+            <a class="chamada__botao" href="#">conheça os planos</a>
         </section>
     </main>
 </body>
