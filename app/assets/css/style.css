@@ -29,6 +29,10 @@ font-family: 'Open Sans', sans-serif;
     --planos-cartao-start-color: #56CCF2;
     --planos-cartao-ultra-color: #B04CD9;
     --planos-cartao-mega-color: #E33B3B;
+
+    --Montserrat: font-family: 'Montserrat', sans-serif;
+    --OpenSans: font-family: 'Open Sans', sans-serif;
+
 }
 
 .espaco{
