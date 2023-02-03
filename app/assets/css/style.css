@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco-color: #FFF;
+    --azul-claro-color: #DFE3E5;
+    --vermelho-forte-color: #B72E2E;
+    --cinza-escuro-color: #4F4C4C;
+    --cinza-claro-color: #F7F4F4;
+    --cinza-medio-color: #D9D9D9;
+        
+    --fonte-link-color: #0084FF;
+    --fonte-cinza-color: #666;
+    --borda-cabecalho-mobile-color: #103D4A;
+    --bg-rodape-color: #333;
+    --bg-chamada-mobile-color: #00161C;
+    
+    --planos-cartao-start-color: #56CCF2;
+    --planos-cartao-ultra-color: #B04CD9;
+    --planos-cartao-mega-color: #E33B3B;
+}
