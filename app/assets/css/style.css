@@ -30,3 +30,20 @@ font-family: 'Open Sans', sans-serif;
     --planos-cartao-ultra-color: #B04CD9;
     --planos-cartao-mega-color: #E33B3B;
 }
+
+.espaco{
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.botao{
+    text-align: center;
+    display: block;
+
+    width: 100%;
+    max-width: 350px;
+
+    padding: 1rem 2rem;
+
+    border: solid 1px var(--branco-color);
+}
