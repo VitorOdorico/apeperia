@@ -4,6 +4,7 @@
 /* components */
 @import url('/app/assets/src/styles/components/header/header.css');
 @import url('/app/assets/src/styles/components/header/container-box-into.css');
+@import url('/app/assets/src/styles/components/cards/cards.css');
 
 
 *{
@@ -13,6 +14,7 @@
 }
 :root{
     --white-color: #fff;
+    --red-color: rgb(255, 52, 52);
 }
 
 body{

@@ -1,0 +1,42 @@
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    background: var(--red-color);
+   
+}
+
+.cards-svg-title{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 0.5rem;
+    padding-left: .5rem;
+    
+}
+.cards-svg-title h3{
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif; 
+    color: white;
+}
+.cards img {
+    width: 25px;
+    color: white;
+}
+
+.cards p{
+    padding: 1rem;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif; 
+    color: white;
+}
