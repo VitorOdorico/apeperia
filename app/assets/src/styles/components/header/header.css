@@ -13,7 +13,11 @@ header{
     justify-content: space-around;
     align-items: center;
     margin-top: 0.6rem;
-    transition: 2s;
+    width: 100%;
+    background: transparent;
+    opacity: 30;
+    position: fixed;
+    
     
 }
 
@@ -31,11 +35,12 @@ header{
     justify-content: center;
     text-align: center;
     border-radius: 50%;
-    background-color: red;
+    color: white;
+    background-color: rgb(255, 80, 80);
 }
 .logo h1{
     font-family: 'Roboto Slab', serif;
-    color: white;
+    color: rgb(255, 80, 80);
 }
 
 .nav-bar nav{
@@ -43,12 +48,12 @@ header{
     gap: 0.9rem;
 }
 .nav-bar a{
-    color: white;
+    color: rgb(255, 80, 80);
     text-decoration: none;
     font-size: 20px;
     font-family: 'Roboto Slab', serif;
 }
 .nav-bar a:hover{
-    color: gray;
-    text-decoration: underline;
+    color: black;
+    text-shadow: 1px 1px black;
 }
