@@ -1,3 +1,54 @@
 header{
     display: flex;
+    flex-direction: column;
+    background: url('/app/assets/img/bg-intro.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.6rem;
+    transition: 2s;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+}
+.logo h1{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.nav-bar nav{
+    display: flex;
+    gap: 0.9rem;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+.nav-bar a:hover{
+    color: gray;
+    text-decoration: underline;
 }
