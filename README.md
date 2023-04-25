@@ -24,10 +24,10 @@
 **Apresente as instruções necessárias para abrir e executar o projeto**
 
 # 🧠 Autores
-
-
+### `Nome do autor` 
+  > contribuição feita
 
 # 🛡️ Licenças 
-
+<h3>MIT</h3> <p>descrição da licença aqui!</p>
 # 📞 Contatos
 
